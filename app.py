@@ -67,7 +67,7 @@ class Pygamer:
                     print("Silenced Stray")
                     print(self.instances[key])
 
-    def create_upgrades(self, key=None, title: str, cost: int):
+#    def create_upgrades(self, key=None, title: str, cost: int):
 
     def destroy_stray(self, key):
         self.instances[key] = [i for i in self.instances[key] if i[0] is not None]
